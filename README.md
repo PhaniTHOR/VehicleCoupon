@@ -36,9 +36,9 @@ Bar: never, less1, 1~3, gt8,  nan4~8 (feature meaning: how many times do you go 
 CoffeeHouse: never, less1, 4~8, 1~3, gt8,  nan (feature meaning: how many times do you go to a coffeehouse every month?)<br><br>
 CarryAway:n4~8, 1~3, gt8, less1, never (feature meaning: how many times do you get take-away food every month?)<br><br>
 RestaurantLessThan20: 4~8, 1~3, less1, gt8,  never (feature meaning: how many times do you go to a restaurant with an average expense per person of less than $20 every month?)<br><br>
-Restaurant20To50: 1~3, less1, never, gt8, 4~8,  nan (feature meaning: how many times do you go to a restaurant with average expense per person of $20 - $50 every month?)
-toCoupon_GEQ15min:0,1 (feature meaning: driving distance to the restaurant/bar for using the coupon is greater than 15 minutes)
-toCoupon_GEQ25min:0, 1 (feature meaning: driving distance to the restaurant/bar for using the coupon is greater than 25 minutes)
-direction_same:0, 1 (feature meaning: whether the restaurant/bar is in the same direction as your current destination)
-direction_opp:1, 0 (feature meaning: whether the restaurant/bar is in the same direction as your current destination)
-Y:1, 0 (whether the coupon is accepted)
+Restaurant20To50: 1~3, less1, never, gt8, 4~8,  nan (feature meaning: how many times do you go to a restaurant with average expense per person of $20 - $50 every month?)<br><br>
+toCoupon_GEQ15min:0,1 (feature meaning: driving distance to the restaurant/bar for using the coupon is greater than 15 minutes)<br><br>
+toCoupon_GEQ25min:0, 1 (feature meaning: driving distance to the restaurant/bar for using the coupon is greater than 25 minutes)<br><br>
+direction_same:0, 1 (feature meaning: whether the restaurant/bar is in the same direction as your current destination)<br><br>
+direction_opp:1, 0 (feature meaning: whether the restaurant/bar is in the same direction as your current destination)<br><br>
+Y:1, 0 (whether the coupon is accepted)<br><br>
